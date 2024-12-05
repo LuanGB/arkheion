@@ -40,7 +40,7 @@ gem "thruster", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem 'paper_trail', "~> 16.0.0"
+gem "paper_trail", "~> 16.0.0"
 gem "devise", "~> 4.9"
 
 group :development, :test do
@@ -64,4 +64,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
