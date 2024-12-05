@@ -59,4 +59,3 @@ group :test do
   gem "selenium-webdriver"
   gem "simplecov", "~> 0.22.0"
 end
-
