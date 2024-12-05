@@ -39,6 +39,7 @@ gem "thruster", require: false
 
 gem "paper_trail", "~> 16.0.0"
 gem "devise", "~> 4.9"
+gem "jsonb_accessor", "~> 1.4"
 
 group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
@@ -59,3 +60,4 @@ group :test do
   gem "selenium-webdriver"
   gem "simplecov", "~> 0.22.0"
 end
+
