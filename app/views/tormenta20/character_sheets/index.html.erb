@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Character sheets" %>
+
+<h1>Character sheets</h1>
+
+<div id="tormenta20_character_sheets">
+  <% @tormenta20_character_sheets.each do |tormenta20_character_sheet| %>
+    <%= render tormenta20_character_sheet %>
+    <p>
+      <%= link_to "Show this character sheet", tormenta20_character_sheet %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New character sheet", new_tormenta20_character_sheet_path %>

@@ -1,0 +1,11 @@
+<% content_for :title, "New character sheet" %>
+
+<h1>New character sheet</h1>
+
+<%= render "form", tormenta20_character_sheet: @tormenta20_character_sheet %>
+
+<br>
+
+<div>
+  <%= link_to "Back to character sheets", tormenta20_character_sheets_path %>
+</div>

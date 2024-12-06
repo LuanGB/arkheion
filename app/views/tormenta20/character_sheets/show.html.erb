@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @tormenta20_character_sheet %>
+
+<div>
+  <%= link_to "Edit this character sheet", edit_tormenta20_character_sheet_path(@tormenta20_character_sheet) %> |
+  <%= link_to "Back to character sheets", tormenta20_character_sheets_path %>
+
+  <%= button_to "Destroy this character sheet", @tormenta20_character_sheet, method: :delete %>
+</div>
